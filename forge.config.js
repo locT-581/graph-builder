@@ -30,4 +30,17 @@ module.exports = {
       },
     },
   ],
+  publishers: [
+    {
+      name: '@electron-forge/publisher-github',
+      config: {
+        repository: {
+          owner: 'LocT',
+          name: 'graph-builder'
+        },
+        prerelease: false,
+        draft: true
+      }
+    }
+  ]
 };

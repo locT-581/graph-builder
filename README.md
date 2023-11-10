@@ -14,13 +14,6 @@
 
 </div>
 
-<div align="center">
-  <a  href="https://loct-581.github.io/audius/">Download</a>
-</div>
-</br>
-
-<!-- ![demo-gif](https://github.com/locT-581/audius/assets/132336957/b7290429-4138-43c2-8bf8-fbd358dd050c) -->
-
 <table>
   <tr>
     <td><img src="https://github.com/locT-581/graph-builder/assets/132336957/2e5eb4df-2bc9-4cbe-b985-e999de94d43a" alt="mockup" /></td>
@@ -41,6 +34,16 @@
 - Draw the nodes, and edges by graphic interface.
 - Find the Euler cycle on the graph.
 - Save and open saved files.
+
+####  How to run this code
+1. Clone this repository
+2. Open command line in the cloned folder,
+   - To install dependencies, run ```  npm install  ``` or ``` yarn ```
+   - To run the application for development, run ```  npm start  ``` or ``` yarn start ```
+   - To create a distributable, run ```  npm run make  ``` or ``` yarn make ```
+4. Open [localhost:3000](http://localhost:3000/) in the browser
+----
+
 
 ## 📬 Contact
 
