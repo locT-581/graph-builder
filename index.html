@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <!-- https://developer.mozilla.org/en-US/docs/Web/HTTP/CSP -->
+    <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'; style-src 'self' 'unsafe-inline'">
+    <link href="./styles.css" rel="stylesheet">
+    <title>Graph | Đồ thị</title>
+  </head>
+  <body>
+      <main>
+      <section class="left">
+        <div id="graph-input">
+          <p id="warning-input"></p>
+          <textarea
+            type="text"
+            name="keyboard-input"
+            id="keyboard-input"
+            autocomplete="off"
+          ></textarea>
+          <div class="save-open">
+            <button id="save" class="btn" type="button">Lưu file</button>
+            <button id="open" class="btn" type="button">Mở file</button>
+          </div>
+        </div>
+      </section>
+      <section class="center">
+        <div class="option">
+        </div>
+        <div class="graph">
+          <svg>
+            <g id="edge-group">
+            </g>
+            <g id="vertex-group"></g>
+          </svg>
+          <p id="warning"></p>
+        </div>
+        <div class="function">
+          <button class="btn" id="bfs">Số miền liên thông</button>
+          <button class="btn" id="euler">Chu trình Euler</button>
+        </div>
+      </section>
+      <section class="right">
+        <div class="right__option">
+          <button type="button" class="btn" id="index-label">Đỉnh tự động</button>
+          <button type="button" class="btn" id="custom-lable">Đỉnh tự chọn</button>
+        </div>
+        <ul class="guide">
+          <li>Double click để tạo một đỉnh.</li>
+          <li>Ctrl + click để xóa một đỉnh.</li>
+          <li>Shift + click vào đỉnh để tạo cung.</li>
+          <li>Ctrl + click để xóa một cung.</li>
+          <li>Nhấn giữ để di chuyển các đỉnh.</li>
+        </ul>
+        <div id="result"></div>
+        <button type="button" class="btn" id="clear-graph">
+          Xóa toàn bộ
+        </button>
+      </section>
+    </main>
+    <!-- You can also require other files to run in this process -->
+    <script src="./renderer.js"></script>
+  </body>
+</html>
