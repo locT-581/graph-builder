@@ -3,7 +3,7 @@
   Graph Builder
 </h1>
 
-<h4 align="center">An desktop application to create a graph and find the Euler cycle on an Undirected Graph.</h4>
+<h4 align="center">A desktop application to create a graph and find the Euler cycle on an Undirected Graph.</h4>
 
 <div align="center">
 
@@ -20,6 +20,17 @@
 </br>
 
 <!-- ![demo-gif](https://github.com/locT-581/audius/assets/132336957/b7290429-4138-43c2-8bf8-fbd358dd050c) -->
+
+<table>
+  <tr>
+    <td><img src="https://github.com/locT-581/graph-builder/assets/132336957/2e5eb4df-2bc9-4cbe-b985-e999de94d43a" alt="mockup" /></td>
+    <td><img src="https://github.com/locT-581/graph-builder/assets/132336957/f0cbf89c-30ae-4267-952f-03aaf91f8844" alt="mockups" /></td>
+  </tr>
+  <tr>
+    <td><img src="https://github.com/locT-581/graph-builder/assets/132336957/630ee8fe-3a3a-484e-a9e9-779e96dd31d8" alt="mockup" /></td>
+    <td><img src="https://github.com/locT-581/graph-builder/assets/132336957/cd2757ca-484c-4756-8c25-6993add0012e" alt="mockups" /></td>
+  </tr>
+</table>
 
 ## 📑 Description 
 **Create a graph graphically and find the Euler cycle on that graph.**
