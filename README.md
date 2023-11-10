@@ -41,7 +41,6 @@
    - To install dependencies, run ```  npm install  ``` or ``` yarn ```
    - To run the application for development, run ```  npm start  ``` or ``` yarn start ```
    - To create a distributable, run ```  npm run make  ``` or ``` yarn make ```
-4. Open [localhost:3000](http://localhost:3000/) in the browser
 ----
 
 
